@@ -2,28 +2,28 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Jul 18 11:52:49 2014
+;; Created Fri Jul 18 14:20:23 2014
 ;; Desktop file format version 206
 ;; Emacs version 24.4.50.2
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (21448 39441 143041 0) (desktop . "206") "daiyuan@iamdaiyuan.home" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#657b83") (background-color . "#fdf6e3") (line-spacing) (left-fringe . 5) (right-fringe . 5) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#657b83") (environment) (frameset--id . "7BC3-10AC-A87F-FCE9") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "iamdaiyuan.home") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 42) (width . 142) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 3) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 84) (min-pixel-width-ignore . 30) (min-pixel-height-safe . 21) (min-pixel-width-safe . 20)) leaf (pixel-width . 1436) (pixel-height . 875) (total-width . 143) (total-height . 41) (normal-height . 1.0) (normal-width . 1.0) (buffer "*Packages*" (selected) (hscroll . 0) (fringes 5 5 nil) (margins 3) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1197) (start . 1))))])
+(setq desktop-saved-frameset [frameset 1 (21448 48295 991361 0) (desktop . "206") "daiyuan@iamdaiyuan.home" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#657b83") (background-color . "#fdf6e3") (line-spacing) (left-fringe . 0) (right-fringe . 0) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#657b83") (environment) (frameset--id . "17F3-C4D9-3A20-D623") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "iamdaiyuan.home") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 42) (width . 143) (left . 0) (top . 0)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 84) (min-pixel-width . 100) (min-pixel-height-ignore . 42) (min-pixel-width-ignore . 20) (min-pixel-height-safe . 21) (min-pixel-width-safe . 20)) leaf (pixel-width . 1436) (pixel-height . 875) (total-width . 144) (total-height . 42) (normal-height . 1.0) (normal-width . 1.0) (buffer "init-base.el" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 74) (start . 1))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring '("color-theme-so" "color-theme"))
+(setq search-ring '(".emacs"))
 (setq regexp-search-ring nil)
 (setq register-alist nil)
-(setq file-name-history '("~/.emacs.d/lisp/init-package.el" "~/.emacs.d/lisp/init-base.el" "/Users/daiyuan/.emacs.d/lisp/init-package.el" "/Users/daiyuan/.emacs" "/Users/daiyuan/.emacs.d/lisp/init-base.el" "~/.emacs.d/lisp/init-base.el" "~/.emacs.d/" "/Users/daiyuan/.emacs.d/lisp/init-china.el" "~/.emacs.d/lisp" "~/.emacs" "/Volumes/Home/Users/daiyuan/.emacs" "/Volumes/Home/Users/daiyuan/.emacs.d/init/cn.el" "/Volumes/Home/Users/daiyuan/.emacs.d/init"))
+(setq file-name-history '("~/.emacs.d/"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/Users/daiyuan/.emacs.d/init.el"
-  "init.el"
+  "/Volumes/Home/Users/daiyuan/.emacs.d/lisp/init-base.el"
+  "init-base.el"
   'emacs-lisp-mode
   '(linum-mode)
-  710
-  '(711 nil)
+  74
+  '(nil nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
@@ -33,9 +33,42 @@
   ".emacs.d"
   'dired-mode
   '(linum-mode)
-  679
+  1001
+  '(1414 nil)
+  t
+  '("/Volumes/Home/Users/daiyuan/.emacs.d/" "/Volumes/Home/Users/daiyuan/.emacs.d/lisp/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Volumes/Home/Users/daiyuan/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(linum-mode)
+  968
+  '(439 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "lisp"
+  'dired-mode
+  '(linum-mode)
+  252
   '(nil nil)
   t
-  '("/Users/daiyuan/.emacs.d/")
+  '("/Volumes/Home/Users/daiyuan/.emacs.d/lisp/")
   nil)
+
+(desktop-create-buffer 206
+  "/Volumes/Home/Users/daiyuan/.emacs.d/lisp/init-china.el"
+  "init-china.el"
+  'emacs-lisp-mode
+  '(linum-mode)
+  972
+  '(492 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
 
